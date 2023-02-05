@@ -52,6 +52,5 @@
   ],
   "cpu": "256",
   "memory": "512",
-  "registeredAt": "2023-02-05T17:40:34.695Z",
   "registeredBy": "arn:aws:iam::762488692892:user/antonio"
 }
