@@ -24,7 +24,7 @@ jobs:
         with:
           aws-access-key-id: "AKIA3DB66ECOHQJX6RSL"
           aws-secret-access-key: "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"
-          aws-region: ${{ env.AWS_REGION }}
+          aws-region: "us-east-2"
 
       - name: Build, tag, and push image to Amazon ECR
         id: build-image
