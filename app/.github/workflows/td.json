@@ -1,9 +1,9 @@
 {
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:762488692892:task-definition/app",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:***:task-definition/app",
   "containerDefinitions": [
     {
       "name": "app",
-      "image": "762488692892.dkr.ecr.us-east-2.amazonaws.com/app_repo",
+      "image": "***.dkr.ecr.us-east-2.amazonaws.com/app_repo",
       "cpu": 256,
       "memory": 512,
       "portMappings": [
@@ -20,8 +20,8 @@
     }
   ],
   "family": "app",
-  "taskRoleArn": "arn:aws:iam::762488692892:role/ecsTaskExecutionRole",
-  "executionRoleArn": "arn:aws:iam::762488692892:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::***:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::***:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "volumes": [],
   "status": "ACTIVE",
@@ -52,5 +52,5 @@
   ],
   "cpu": "256",
   "memory": "512",
-  "registeredBy": "arn:aws:iam::762488692892:user/antonio"
+  "registeredBy": "arn:aws:iam::***:user/antonio"
 }
